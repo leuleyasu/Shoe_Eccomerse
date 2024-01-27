@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803409692683",
+    "project_id": "shoe-eccomerse",
+    "storage_bucket": "shoe-eccomerse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803409692683:android:d1f41a6e3a37e25df85f0e",
+        "android_client_info": {
+          "package_name": "com.example.shoe_ecommerse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHMS1Vn3olWdPfygejls6L3bMBrg2TnvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
