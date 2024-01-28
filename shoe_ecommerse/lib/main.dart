@@ -1,8 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shoe_ecommerse/Homescreen.dart';
+import 'package:shoe_ecommerse/controller/home_controller.dart';
+import 'package:shoe_ecommerse/firebase_options.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp(options: DefaultFirebaseOptions.android);
+  Get.put(HomeController());
   runApp(const MyApp());
 }
 
